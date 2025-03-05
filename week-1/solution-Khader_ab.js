@@ -72,6 +72,7 @@ for (i = 0; i < textarray.length; i++) {
 
 
 // ----------------------------------------4-Your Order, Please ------------
+//Example: "is2 Thi1s T4est 3a" → "Thi1s is2 3a T4est"
 
 
 // solutionkan wuxuu ka kobanyy sadex qybood 
