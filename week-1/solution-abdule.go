@@ -87,7 +87,7 @@ func ArrayDi(arr1, arr2 []int) []int {
 		}
 	}
 	return result
-	// Time Complexity: O(n + m), where n is the size of arr1 and m is the size of arr2.
+	//Todo: Time Complexity: O(n + m), where n is the size of arr1 and m is the size of arr2.
 }
 
 func main() {
