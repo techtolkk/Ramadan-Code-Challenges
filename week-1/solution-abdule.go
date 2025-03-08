@@ -39,7 +39,7 @@ func CountDuplicates(str string) int {
 }
 
 // 3️⃣ Detect Pangram
-func IsPangram(sentence string) bool {
+func DetectPangram(sentence string) bool {
 	alphabet := make(map[rune]bool)
 	sentence = strings.ToLower(sentence)
 	for _, ch := range sentence {
@@ -52,7 +52,7 @@ func IsPangram(sentence string) bool {
 }
 
 // 4️⃣ Your Order, Please
-func OrderWords(sentence string) string {
+func OrderStrings(sentence string) string {
 	if sentence == "" {
 		return ""
 	}
@@ -71,7 +71,7 @@ func OrderWords(sentence string) string {
 }
 
 // 5️⃣ Array Diff
-func ArrayDiff(arr1, arr2 []int) []int {
+func ArrayDi(arr1, arr2 []int) []int {
 	result := []int{}
 	lookup := make(map[int]bool)
 
