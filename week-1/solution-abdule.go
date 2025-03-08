@@ -91,9 +91,9 @@ func ArrayDi(arr1, arr2 []int) []int {
 }
 
 func main() {
-	fmt.Println(Multiple3Or5(10))                                         // Expected: 23
-	fmt.Println(CountDuplicates("aabBcde"))                               // Expected: 2
-	fmt.Println(IsPangram("The quick brown fox jumps over the lazy dog")) // Expected: true
-	fmt.Println(OrderWords("is2 Thi1s T4est 3a"))                         // Expected: "Thi1s is2 3a T4est"
-	fmt.Println(ArrayDiff([]int{1, 2, 2, 2, 3}, []int{2}))                // Expected: [1,3]
+	fmt.Println(Multiple3Or5(10))                                             // Expected: 23
+	fmt.Println(CountDuplicates("aabBcde"))                                   // Expected: 2
+	fmt.Println(DetectPangram("The quick brown fox jumps over the lazy dog")) // Expected: true
+	fmt.Println(OrderStrings("is2 Thi1s T4est 3a"))                           // Expected: "Thi1s is2 3a T4est"
+	fmt.Println(ArrayDi([]int{1, 2, 2, 2, 3}, []int{2}))                      // Expected: [1,3]
 }
